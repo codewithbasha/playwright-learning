@@ -1,0 +1,23 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:saucedemo": "npx playwright test saucedemo.spec.ts",
+    "test:pom": "npx playwright test saucedemopom.spec.ts",
+    "test:l": "npx playwright test learning.spec.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "xlsx": "^0.18.5"
+  }
+}
